@@ -1,16 +1,16 @@
-package videos.pic.api.categoria.service;
+package videos.pic.api.domain.categoria.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import videos.pic.api.categoria.AtualizarDadosCategoria;
-import videos.pic.api.categoria.CadastrarCategoria;
-import videos.pic.api.categoria.Categoria;
-import videos.pic.api.categoria.CategoriaRepository;
-import videos.pic.api.categoria.ListarCategoria;
 import videos.pic.api.domain.ValidacaoException;
+import videos.pic.api.domain.categoria.AtualizarDadosCategoria;
+import videos.pic.api.domain.categoria.CadastrarCategoria;
+import videos.pic.api.domain.categoria.Categoria;
+import videos.pic.api.domain.categoria.CategoriaRepository;
+import videos.pic.api.domain.categoria.ListarCategoria;
 
 @Service
 public class CategoriaService {

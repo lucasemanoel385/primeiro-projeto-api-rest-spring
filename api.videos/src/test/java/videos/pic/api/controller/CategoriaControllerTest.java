@@ -19,11 +19,11 @@ import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import videos.pic.api.categoria.CadastrarCategoria;
-import videos.pic.api.categoria.Categoria;
-import videos.pic.api.categoria.service.CategoriaService;
-import videos.pic.api.videos.CadastroVideo;
-import videos.pic.api.videos.Videos;
+import videos.pic.api.domain.categoria.CadastrarCategoria;
+import videos.pic.api.domain.categoria.Categoria;
+import videos.pic.api.domain.categoria.service.CategoriaService;
+import videos.pic.api.domain.videos.CadastroVideo;
+import videos.pic.api.domain.videos.Videos;
 
 @SpringBootTest //Pra testar um controller no spring
 @AutoConfigureMockMvc //Serve pra injetar o mockmvc na classe junto com o autowired

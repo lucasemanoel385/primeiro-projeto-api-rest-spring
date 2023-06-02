@@ -1,9 +1,9 @@
-package videos.pic.api.videos;
+package videos.pic.api.domain.videos;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
-import videos.pic.api.categoria.Categoria;
+import videos.pic.api.domain.categoria.Categoria;
 
 public record AtualizarDadosVideos(
 		@NotNull

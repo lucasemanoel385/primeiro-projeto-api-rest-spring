@@ -1,4 +1,4 @@
-package videos.pic.api.videos;
+package videos.pic.api.domain.videos;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

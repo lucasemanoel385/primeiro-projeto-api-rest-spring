@@ -1,4 +1,4 @@
-package videos.pic.api.videos;
+package videos.pic.api.domain.videos;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -15,9 +15,9 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import videos.pic.api.categoria.Categoria;
-import videos.pic.api.categoria.CategoriaRepository;
 import videos.pic.api.domain.ValidacaoException;
+import videos.pic.api.domain.categoria.Categoria;
+import videos.pic.api.domain.categoria.CategoriaRepository;
 
 @Table(name = "tb_videos")
 @Entity(name = "Videos")

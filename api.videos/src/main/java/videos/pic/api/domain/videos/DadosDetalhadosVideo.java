@@ -1,6 +1,6 @@
-package videos.pic.api.videos;
+package videos.pic.api.domain.videos;
 
-import videos.pic.api.categoria.Categoria;
+import videos.pic.api.domain.categoria.Categoria;
 
 public record DadosDetalhadosVideo(Long id, String nomeCategoria, String titulo, String descricao, String url) {
 	

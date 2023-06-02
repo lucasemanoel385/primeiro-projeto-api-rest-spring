@@ -1,4 +1,4 @@
-package videos.pic.api.videos.validations;
+package videos.pic.api.domain.videos.validations;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import videos.pic.api.domain.ValidacaoException;
-import videos.pic.api.videos.Videos;
+import videos.pic.api.domain.videos.Videos;
 @Order(value = 1)  //define a ordem de classificação (quem vem primeiro) de um componente ou bean anotado.
 @Component
 public class TodosCamposValidos implements ValidacoesVideo {

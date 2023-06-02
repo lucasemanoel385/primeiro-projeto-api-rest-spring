@@ -1,8 +1,8 @@
-package videos.pic.api.categoria;
+package videos.pic.api.domain.categoria;
 
 import java.util.List;
 
-import videos.pic.api.videos.Videos;
+import videos.pic.api.domain.videos.Videos;
 
 public record ListarCategoria(Long id, String nome) {
 	

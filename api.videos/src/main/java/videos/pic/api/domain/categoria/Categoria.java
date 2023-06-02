@@ -1,4 +1,4 @@
-package videos.pic.api.categoria;
+package videos.pic.api.domain.categoria;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +18,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import videos.pic.api.videos.Videos;
+import videos.pic.api.domain.videos.Videos;
 
 @Entity(name = "Categoria")
 @Table(name = "tb_categorias")

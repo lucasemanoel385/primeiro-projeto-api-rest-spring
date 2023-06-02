@@ -1,4 +1,4 @@
-package videos.pic.api.videos;
+package videos.pic.api.domain.videos;
 
 public record VideoExclusao(String msg) {
 	

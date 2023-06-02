@@ -1,4 +1,4 @@
-package videos.pic.api.categoria;
+package videos.pic.api.domain.categoria;
 
 import java.util.List;
 

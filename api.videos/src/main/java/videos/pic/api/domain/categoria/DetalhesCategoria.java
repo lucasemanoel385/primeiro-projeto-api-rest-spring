@@ -1,4 +1,4 @@
-package videos.pic.api.categoria;
+package videos.pic.api.domain.categoria;
 
 public record DetalhesCategoria(String nome, String cor) {
 	

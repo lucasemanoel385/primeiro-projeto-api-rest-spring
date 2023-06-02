@@ -1,10 +1,10 @@
-package videos.pic.api.videos;
+package videos.pic.api.domain.videos;
 
 import java.awt.print.Pageable;
 
 import org.springframework.data.domain.PageRequest;
 
-import videos.pic.api.categoria.Categoria;
+import videos.pic.api.domain.categoria.Categoria;
 
 public record MostrarVideos(Long id, String titulo, String descricao, String url, Categoria categoria) {
 	

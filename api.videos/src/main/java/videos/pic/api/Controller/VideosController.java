@@ -22,16 +22,16 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
-import videos.pic.api.categoria.Categoria;
-import videos.pic.api.categoria.CategoriaRepository;
 import videos.pic.api.domain.ValidacaoException;
-import videos.pic.api.videos.AtualizarDadosVideos;
-import videos.pic.api.videos.CadastroVideo;
-import videos.pic.api.videos.DadosDetalhadosVideo;
-import videos.pic.api.videos.VideoExclusao;
-import videos.pic.api.videos.Videos;
-import videos.pic.api.videos.VideosRepository;
-import videos.pic.api.videos.services.VideoService;
+import videos.pic.api.domain.categoria.Categoria;
+import videos.pic.api.domain.categoria.CategoriaRepository;
+import videos.pic.api.domain.videos.AtualizarDadosVideos;
+import videos.pic.api.domain.videos.CadastroVideo;
+import videos.pic.api.domain.videos.DadosDetalhadosVideo;
+import videos.pic.api.domain.videos.VideoExclusao;
+import videos.pic.api.domain.videos.Videos;
+import videos.pic.api.domain.videos.VideosRepository;
+import videos.pic.api.domain.videos.services.VideoService;
 
 @RestController
 @RequestMapping("{videos}")
