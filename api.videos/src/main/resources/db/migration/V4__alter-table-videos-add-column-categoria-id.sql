@@ -1,0 +1,1 @@
+alter table tb_videos add column categoria_id bigint
